@@ -5,7 +5,7 @@
  */
 
 package test;
-
+import java.util.Scanner;
 /**
  *
  * @author 2603yokasmi
@@ -18,10 +18,13 @@ public class Test {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        //gsdojgsg
-        int r = 5;
-        int c = 6;
-        int resultat = r*c;
+        //test
+        Scanner input = new Scanner(System.in);                  
+        System.out.println("Inserez x :");      
+        int x = input.nextInt();
+        System.out.println("Inserez y :");
+        int y = input.nextInt();
+        int resultat = x*y;
         System.out.println("résultat = " + resultat);
     }
     
