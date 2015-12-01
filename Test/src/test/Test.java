@@ -19,6 +19,10 @@ public class Test {
         // TODO code application logic here
         
         //gsdojgsg
+        int r = 5;
+        int c = 6;
+        int resultat = r*c;
+        System.out.println("résultat = " + resultat);
     }
     
 }
